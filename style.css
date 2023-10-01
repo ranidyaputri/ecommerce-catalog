@@ -1,0 +1,169 @@
+body{
+  font-family: 'Inter';
+  margin: 0;
+  padding: 0;
+}
+/* background */
+.bg-image{
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+}
+/* bg color per model */
+.bg-color.men{
+  height: 548px;
+  width: 100vw;
+  background-color: #D6E6FF;
+  position: relative;
+}
+.bg-color.women{
+  height: 548px;
+  width: 100vw;
+  background-color: #FDE2FF;
+  position: relative;
+}
+
+.bg-pattern{
+  position: absolute;
+  width: 100%;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+
+.background{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+/* card clothing */
+hr.hr-line{
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
+.card-clothing{
+  width: 1034px;
+  height: 580px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.card-body{
+  padding: 50px;
+}
+.row {
+  display: flex;
+}
+.col {
+  flex: 50%;
+}
+.card-img{
+  width: 301px;
+  height: 383px;
+}
+.card-img img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+/* card header */
+.header-info{
+  display: flex;
+  justify-content: space-between;
+}
+.rating{
+  display: flex;
+  align-items: center;
+}
+.rating-circle{
+  display: flex;
+}
+
+/* styling per model */
+.card-clothing.men .ellips-fill{
+  width: 18px;
+  height: 18px;
+  background-color: #002772;
+  border-radius: 100%;
+}
+.card-clothing.men .ellips-stroke{
+  width: 18px;
+  height: 18px;
+  border: 1px solid #002772;
+  border-radius: 100%;
+}
+.card-clothing.men .title, .card-clothing.men .price{
+  color: #002772;
+}
+.card-clothing.women .ellips-fill{
+  width: 18px;
+  height: 18px;
+  background-color: #720060;
+  border-radius: 100%;
+}
+.card-clothing.women .ellips-stroke{
+  width: 18px;
+  height: 18px;
+  border: 1px solid #720060;
+  border-radius: 100%;
+}
+.card-clothing.women .title, .card-clothing.women .price{
+  color: #720060;
+}
+
+
+.mr-2{
+  margin-right: 2px;
+}
+
+/* card body */
+.body-txt{
+  width: 517px;
+  height: 163px;
+  margin-bottom: 50px;
+}
+
+
+a.btn-buy.men{
+  width: fit-content;
+  height: fit-content;
+  background-color: #002772;
+  padding: 9px 75px;
+  text-decoration: none;
+  color: #fff;
+  border-radius: 4px;
+}
+a.btn-next.men{
+  width: fit-content;
+  height: fit-content;
+  border: 1px solid #002772;
+  padding: 9px 75px;
+  text-decoration: none;
+  color: #002772;
+  border-radius: 4px;
+}
+a.btn-buy.women{
+  width: fit-content;
+  height: fit-content;
+  background-color: #720060;
+  padding: 9px 75px;
+  text-decoration: none;
+  color: #fff;
+  border-radius: 4px;
+}
+a.btn-next.women{
+  width: fit-content;
+  height: fit-content;
+  border: 1px solid #720060;
+  padding: 9px 75px;
+  text-decoration: none;
+  color: #720060;
+  border-radius: 4px;
+}
